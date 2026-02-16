@@ -7,6 +7,13 @@
     <title>Document</title>
   </head>
   <body>
-    bonjour tous le monde j'espere que vous aller bien
+     <h2>Réserver une place</h2>
+
+    <form method="post" action="/reservation">
+      <input type="email" name="email" placeholder="Votre email" required />
+      <input type="text" name="place" placeholder="Numéro de place" required />
+      <input type="date" name="date" required />
+      <button type="submit">Réserver</button>
+    </form>
   </body>
 </html>
